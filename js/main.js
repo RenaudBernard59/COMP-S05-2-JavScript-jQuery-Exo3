@@ -12,16 +12,33 @@ var bc3 = $('.bloc3')
 var bc4 = $('.bloc4')
 var bc5 = $('.bloc5')
 var bc6 = $('.bloc6')
-
-
-
-
-
+var logo = $('#logo')
 
 bc1.on('click', function() {
 	var attribut = bc1.css('background-image');
 	$('body').css('background-image', attribut);
 });
+bc2.on('click', function() {
+	var attribut = bc2.css('background-image');
+	$('body').css('background-image', attribut);
+});
+bc3.on('click', function() {
+	var attribut = bc3.css('background-image');
+	$('body').css('background-image', attribut);
+});
+bc4.on('click', function() {
+	var attribut = bc4.css('background-image');
+	$('body').css('background-image', attribut);
+});
+bc5.on('click', function() {
+	var attribut = bc5.css('background-image');
+	$('body').css('background-image', attribut);
+});
+bc6.on('click', function() {
+	var attribut = bc6.css('background-image');
+	$('body').css('background-image', attribut);
+});
 
-
-
+logo.on('hover') function() {
+	
+});
